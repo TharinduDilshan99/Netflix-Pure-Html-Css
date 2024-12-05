@@ -1,0 +1,797 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* .hero {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/14db4679-e946-46ab-a96a-9285864a1422/LK-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.9) 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 28px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.netflix-logo {
+    color: #e50914;
+    fill: currentColor;
+    height: 24px;
+}
+
+.sign-in-button {
+    background-color: #e50914;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    color: white;
+    height: 100%;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.title {
+    max-width: 640px;
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.email-input::placeholder {
+    font-size: 0.875rem;
+}
+
+.get-started-button {
+    background: #e50914;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2rem;
+}
+
+.chevron-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 95vh;
+    }
+
+    .header {
+        padding: 28px 58px;
+    }
+
+    .netflix-logo {
+        height: 36px;
+    }
+
+    .sign-in-button {
+        padding: 7px 17px;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .subtitle {
+        padding: 12px 0;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .form-container {
+        flex-direction: row;
+    }
+
+    .email-input {
+        width: 60%;
+        margin-bottom: 0;
+        padding: 16px 10px;
+    }
+} */
+
+.title {
+    font-size: 1.75rem;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.red-btn {
+    background-color: #e50914;
+    padding: 6px 10px;
+    margin-top: 0.75rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.125rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.gray-border {
+    border-top: 8px solid #222;
+}
+
+.list-item-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+    fill: currentColor;
+    transform: rotate(45deg);
+}
+
+.list-item-title {
+    font-size: 1.125rem;
+    letter-spacing: 0.025em;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #303030;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.footer-item {
+    padding-bottom: 14px;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 3.125rem;
+    }
+
+    .subtitle {
+        font-size: 1.625rem;
+    }
+
+    .red-btn {
+        padding: 6px 26px;
+        margin-top: 0;
+        font-size: 1.625rem;
+    }
+
+    .list-item-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .list-item-title {
+        font-size: 1.625rem;
+    }
+
+    .list-item {
+        padding: 1.25rem 2rem;
+    }
+}
+
+.hero-section {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/14db4679-e946-46ab-a96a-9285864a1422/LK-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 28px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.netflix-logo {
+    color: #e50914;
+    fill: currentColor;
+    height: 24px;
+}
+
+.sign-in-btn {
+    background-color: #e50914;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.main-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+    color: white;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.email-input {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: white;
+}
+
+.email-input::placeholder {
+    font-size: 0.875rem;
+}
+
+.chevron-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+    fill: currentColor;
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        height: 95vh;
+    }
+
+    .navbar {
+        padding: 28px 58px;
+    }
+
+    .netflix-logo {
+        height: 36px;
+    }
+
+    .sign-in-btn {
+        padding: 7px 17px;
+    }
+
+    .main-content {
+        width: 85%;
+        max-width: 800px;
+    }
+
+    .cta-section {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .email-input {
+        width: 60%;
+        padding: 1rem 10px;
+    }
+
+    .ready-text {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+.section {
+    border-top: 8px solid #222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    padding: 4rem 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.media-container {
+    position: relative;
+    width: 100%;
+}
+
+.tv-image {
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    position: absolute;
+    top: 48%;
+    max-height: 54%;
+    max-width: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .content {
+        width: 52%;
+        text-align: left;
+    }
+
+    .media-container {
+        width: 48%;
+    }
+}
+
+
+
+
+.section1 {
+    border-top: 8px solid #222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4rem 0;
+    color: white;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+}
+
+.media-container {
+    position: relative;
+    width: 100%;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+}
+
+.download-card {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    border: 2px solid #404040;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    left: 50%;
+    bottom: 4%;
+    transform: translateX(-50%);
+    background-color: black;
+}
+
+.boxshot {
+    height: 3rem;
+}
+
+.text-container {
+    text-align: left;
+}
+
+.show-title {
+    font-size: 0.9rem;
+}
+
+.download-status {
+    font-size: 0.75rem;
+    color: #0071eb;
+}
+
+.download-gif {
+    height: 3rem;
+    width: 3rem;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        gap: 100px;
+        padding: 0 0 40px 0;
+    }
+
+    .media-container {
+        width: 48%;
+    }
+
+    .download-card {
+        width: 60%;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .boxshot {
+        height: 4.5rem;
+    }
+
+    .show-title {
+        font-size: 1rem;
+    }
+
+    .download-status {
+        font-size: 1rem;
+    }
+
+    .content {
+        width: 52%;
+        text-align: left;
+    }
+}
+
+
+
+
+
+.section2 {
+    border-top: 8px solid #222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.content2 {
+    width: 100%;
+    text-align: center;
+}
+
+.content2 p {
+    padding: 0 20px;
+}
+
+.media-container {
+    display: none;
+    width: 48%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .content2 {
+        width: 52%;
+        text-align: left;
+    }
+
+    .content2 p {
+        padding: 0;
+    }
+
+    .media-container {
+        display: block;
+    }
+}
+
+
+
+
+
+.section3 {
+    border-top: 8px solid #222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.media-container3 {
+    position: relative;
+    width: 100%;
+}
+
+.kids-image {
+    width: 100%;
+    height: 100%;
+}
+
+.content3 {
+    width: 100%;
+    text-align: center;
+}
+
+.content3 p {
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .media-container {
+        width: 48%;
+    }
+
+    .content3 {
+        width: 52%;
+        text-align: left;
+    }
+
+    .content3 p {
+        padding: 0;
+        padding-right: 5rem;
+    }
+}
+
+
+
+
+.section4 {
+    border-top: 8px solid #222;
+}
+
+.container {
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.faq-list {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #303030;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.list-item-title {
+    font-size: 1.125rem;
+    letter-spacing: 0.025em;
+}
+
+.list-item-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+    fill: currentColor;
+    transform: rotate(45deg);
+}
+
+.cta-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 5rem 0 1rem;
+    font-weight: 300;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-input {
+    width: 100%;
+    padding: 0.5rem 0.625rem;
+    background-color: white;
+}
+
+.email-input::placeholder {
+    font-size: 0.875rem;
+}
+
+.chevron-icon {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    fill: currentColor;
+}
+
+@media (min-width: 768px) {
+    .faq-list {
+        width: 75%;
+    }
+
+    .list-item-title {
+        font-size: 1.625rem;
+    }
+
+    .list-item-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .cta-container {
+        flex-direction: row;
+        width: 70%;
+        align-items: stretch;
+    }
+
+    .email-input {
+        width: 60%;
+        padding: 1rem 0.625rem;
+    }
+
+    .chevron-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+
+
+
+.footer {
+border-color: #808080;
+}
+
+.footer-container {
+max-width: 1000px;
+color: #737373;
+padding: 70px 45px;
+width: 90%;
+margin: 0 auto;
+}
+
+.footer-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+font-size: 12px;
+}
+
+.footer-item {
+padding: 7px 0;
+cursor: pointer;
+}
+
+.footer-item:hover {
+text-decoration: underline;
+}
+
+h2 {
+padding-bottom: 20px;
+}
+
+.country {
+padding-top: 20px;
+font-size: 12px;
+}
+
+@media (min-width: 768px) {
+.footer-grid {
+grid-template-columns: repeat(4, 1fr);
+font-size: 13px;
+}
+
+.country {
+font-size: 13px;
+}
+}
